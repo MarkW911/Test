@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <style>
+        input, textarea{
+            background-color: darkgrey;
+            border-radius: 5px;
+        }
+        input{
+            height: 24px;
+        }
+        button{
+            border-radius: 20px;
+            width: 100px;
+            height: 35px;
+            background-size: 200% 100%;
+            background-image: linear-gradient(to right, black 50%, white 50%);
+            transition: background-position 170ms linear, color 170ms linear;
+            color: white;
+        }
+        button:hover{
+            background-position: -100% 0;
+            background-color: white;
+            color: black;
+        }
+        body{
+            background-color: black;
+        }
+        p{
+            color: white;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+<pre><p>                                   SEND US A MESSAGE</p></pre>
+<form action="">
+
+   <pre>                                                                        <input type="text" placeholder="Name">   <input type="email" placeholder="Email"></pre>
+    <pre>                                                                        <input type="number" placeholder="Phone">   <input type="text" placeholder="Subject"></pre>
+    <pre>                                                                        <textarea cols="60" rows="5" placeholder="Message"></textarea></pre> <br>
+    <pre>                                                                        <button>Submit</button></pre>
+</form>
+
+
+
+</body>
+
+</html>
